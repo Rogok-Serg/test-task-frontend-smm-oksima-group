@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/test-task-frontend-smm-oksima-group/static/css/main.0b202345.css",
+    "main.js": "/test-task-frontend-smm-oksima-group/static/js/main.22ee2822.js",
+    "index.html": "/test-task-frontend-smm-oksima-group/index.html",
+    "main.0b202345.css.map": "/test-task-frontend-smm-oksima-group/static/css/main.0b202345.css.map",
+    "main.22ee2822.js.map": "/test-task-frontend-smm-oksima-group/static/js/main.22ee2822.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b202345.css",
+    "static/js/main.22ee2822.js"
+  ]
+}
