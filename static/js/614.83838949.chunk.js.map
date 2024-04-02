@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/614.83838949.chunk.js","mappings":"mLASA,UAToB,WAClB,OACE,4BACE,wBAAI,gBACJ,uBAAG,iBAGR,C","sources":["pages/ManagerPage/ManagerPage.jsx"],"sourcesContent":["const ManagerPage = () => {\n  return (\n    <div>\n      <h2>Brand Page</h2>\n      <p>I am Brand</p>\n    </div>\n  );\n};\n\nexport default ManagerPage;\n"],"names":[],"sourceRoot":""}
