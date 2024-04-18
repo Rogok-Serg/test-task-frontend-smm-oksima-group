@@ -1,4 +1,4 @@
-import Profile from 'components/Profile/Profile';
+import { Outlet } from 'react-router-dom';
 import Logotype from '../../images/logotype.png';
 import {
   StyledwrapperLogo,
@@ -16,7 +16,6 @@ import {
   StyledWrapperSection,
 } from './ManagerPage.styled';
 import ListSvg from 'components/ListSvg/ListSvg';
-import ListUsers from 'components/ListUsers/ListUsers';
 
 const ManagerPage = () => {
   return (
@@ -27,7 +26,7 @@ const ManagerPage = () => {
           <StyledTitle>Analytix</StyledTitle>
         </StyledwrapperLogo>
         <StyledList>
-          <StyledItem>
+          <StyledItem to="/manager/userdata">
             <StyledWrapperSvg>
               <svg
                 width="20"
@@ -52,9 +51,10 @@ const ManagerPage = () => {
               </svg>
             </StyledWrapperSvg>
             <StyledItemText>Menedżer</StyledItemText>
+            {/* <StyledItemText>Menedżer</StyledItemText> */}
           </StyledItem>
-          <StyledItem>
-            <StyledWrapperSvg>
+          <StyledItem to="/manager/users">
+            <StyledWrapperSvg className="svg">
               <svg
                 width="20"
                 height="16"
@@ -79,8 +79,9 @@ const ManagerPage = () => {
               </svg>
             </StyledWrapperSvg>
             <StyledItemText>Użytkownicy</StyledItemText>
+            {/* <StyledItemText>Użytkownicy</StyledItemText> */}
           </StyledItem>
-          <StyledItem>
+          <StyledItem to="/manager/offers">
             <StyledWrapperSvg>
               <svg
                 width="18"
@@ -121,7 +122,7 @@ const ManagerPage = () => {
             </StyledWrapperSvg>
             <StyledItemText>Oferuje</StyledItemText>
           </StyledItem>
-          <StyledItem>
+          <StyledItem to="/manager/profile">
             <StyledWrapperSvg>
               <svg
                 width="16"
@@ -138,7 +139,7 @@ const ManagerPage = () => {
             </StyledWrapperSvg>
             <StyledItemText>Profil</StyledItemText>
           </StyledItem>
-          <StyledItem>
+          <StyledItem to="/manager/balance">
             <StyledWrapperSvg>
               <svg
                 width="20"
@@ -179,7 +180,7 @@ const ManagerPage = () => {
             </StyledWrapperSvg>
             <StyledItemText>Balansować</StyledItemText>
           </StyledItem>
-          <StyledItem>
+          <StyledItem to="/manager/support">
             <StyledWrapperSvg>
               <svg
                 width="20"
@@ -233,8 +234,7 @@ const ManagerPage = () => {
             </StyledItemService>
           </StyledListService>
         </StyledSection>
-        <Profile />
-        <ListUsers />
+        <Outlet />
       </StyledWrapperSection>
     </StyledContainer>
   );

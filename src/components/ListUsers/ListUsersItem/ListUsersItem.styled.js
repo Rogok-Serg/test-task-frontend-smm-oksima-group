@@ -3,9 +3,9 @@ import styled from 'styled-components';
 export const StyledUserItem = styled.li`
   display: flex;
   flex-diraction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 0;
-  padding: 16px;
+  padding: 16px 0 16px 20px;
   background-color: #fff;
   margin-bottom: 7px;
   border-radius: 10px;

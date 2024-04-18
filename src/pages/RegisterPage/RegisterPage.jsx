@@ -9,6 +9,7 @@ import {
   StyledForm,
   StyledInput,
   StyledLabel,
+  StyledLink,
   StyledLinkForget,
   StyledRegister,
   StyledSpan,
@@ -152,6 +153,9 @@ const RegisterPage = () => {
           </StyledChekedLabel>{' '}
           <StyledButton type="submit">Login</StyledButton>
         </StyledForm>
+        <StyledLink href="/test-task-frontend-smm-oksima-group/login">
+          Sing in
+        </StyledLink>
       </StyledWrapperForm>
       <Logo />
     </StyledContainer>

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const StyledContainer = styled.div`
@@ -53,7 +54,7 @@ export const StyledList = styled.ul`
   padding-left: 0;
 `;
 
-export const StyledItem = styled.li`
+export const StyledItem = styled(Link)`
   display: flex;
   align-items: center;
   width: 260px;
@@ -62,6 +63,13 @@ export const StyledItem = styled.li`
   border-radius: 10px;
   margin-bottom: 7px;
   cursor: pointer;
+  text-decoration: none;
+  // & .svg {
+  //   background-color: #fff;
+  //   :hover {
+  //     background-color: rgb(2, 74, 181);
+  //   }
+  // }
 `;
 
 export const StyledWrapperSvg = styled.div`
@@ -85,10 +93,10 @@ export const StyledItemText = styled.p`
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #000;
-  // &:hover {
-  //   color: #a3aed0;
-  // }
+  color: #a3aed0;
+  &:hover {
+    color: #a3aed0;
+  }
 `;
 
 export const StyledSection = styled.section`

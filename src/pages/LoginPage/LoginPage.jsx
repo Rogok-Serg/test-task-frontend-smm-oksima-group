@@ -19,6 +19,7 @@ import {
   StyledWrapperPassword,
   StyledVisibleBtn,
   StyledVisible,
+  StyledLink,
 } from '../RegisterPage/RegisterPage.styled';
 import { useState } from 'react';
 import Logo from 'components/Logo/Logo';
@@ -163,6 +164,9 @@ const LoginPage = () => {
           </StyledChekedLabel>{' '}
           <StyledButton type="submit">Login</StyledButton>
         </StyledForm>
+        <StyledLink href="/test-task-frontend-smm-oksima-group/register">
+          Sing up
+        </StyledLink>
       </StyledWrapperForm>
       <Logo />
     </StyledContainer>

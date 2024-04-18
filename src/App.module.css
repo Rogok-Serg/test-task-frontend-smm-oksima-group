@@ -28,4 +28,6 @@ nav {
   color: #000;
   margin-left: 16px;
   border-radius: 30px;
+  flex-direction: column;
+  background-color: transparent;
 }

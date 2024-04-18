@@ -221,3 +221,14 @@ export const StyledTitle = styled.h1`
   line-height: 32px;
   color: #fff;
 `;
+
+export const StyledLink = styled.a`
+  text-align: start;
+  margin-top: 30px;
+  font-family: 'DM Sans' sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2e65f3;
+`;
