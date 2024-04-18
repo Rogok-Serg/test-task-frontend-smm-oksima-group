@@ -1,27 +1,41 @@
 {
   "files": {
     "main.css": "/test-task-frontend-smm-oksima-group/static/css/main.b8e2d544.css",
-    "main.js": "/test-task-frontend-smm-oksima-group/static/js/main.32a1b44b.js",
-    "static/js/680.ee023180.chunk.js": "/test-task-frontend-smm-oksima-group/static/js/680.ee023180.chunk.js",
-    "static/js/589.415ec33c.chunk.js": "/test-task-frontend-smm-oksima-group/static/js/589.415ec33c.chunk.js",
-    "static/js/664.ae4c3649.chunk.js": "/test-task-frontend-smm-oksima-group/static/js/664.ae4c3649.chunk.js",
+    "main.js": "/test-task-frontend-smm-oksima-group/static/js/main.e7fe8e54.js",
+    "static/js/589.efd0fb59.chunk.js": "/test-task-frontend-smm-oksima-group/static/js/589.efd0fb59.chunk.js",
+    "static/js/664.abd9c268.chunk.js": "/test-task-frontend-smm-oksima-group/static/js/664.abd9c268.chunk.js",
     "static/js/703.4951f523.chunk.js": "/test-task-frontend-smm-oksima-group/static/js/703.4951f523.chunk.js",
     "static/js/487.81f81cae.chunk.js": "/test-task-frontend-smm-oksima-group/static/js/487.81f81cae.chunk.js",
-    "static/js/160.8edd5bfa.chunk.js": "/test-task-frontend-smm-oksima-group/static/js/160.8edd5bfa.chunk.js",
+    "static/js/177.f97c7186.chunk.js": "/test-task-frontend-smm-oksima-group/static/js/177.f97c7186.chunk.js",
+    "static/js/714.a23c0400.chunk.js": "/test-task-frontend-smm-oksima-group/static/js/714.a23c0400.chunk.js",
+    "static/js/830.c832aaa8.chunk.js": "/test-task-frontend-smm-oksima-group/static/js/830.c832aaa8.chunk.js",
+    "static/js/204.ba4375b6.chunk.js": "/test-task-frontend-smm-oksima-group/static/js/204.ba4375b6.chunk.js",
+    "static/js/630.9238ae66.chunk.js": "/test-task-frontend-smm-oksima-group/static/js/630.9238ae66.chunk.js",
+    "static/js/774.a74c5e80.chunk.js": "/test-task-frontend-smm-oksima-group/static/js/774.a74c5e80.chunk.js",
+    "static/js/944.98e2690d.chunk.js": "/test-task-frontend-smm-oksima-group/static/js/944.98e2690d.chunk.js",
+    "static/js/881.aaa13400.chunk.js": "/test-task-frontend-smm-oksima-group/static/js/881.aaa13400.chunk.js",
+    "static/js/304.96b9183f.chunk.js": "/test-task-frontend-smm-oksima-group/static/js/304.96b9183f.chunk.js",
     "static/media/logotype.png": "/test-task-frontend-smm-oksima-group/static/media/logotype.33db7218c427fb733cfd.png",
     "static/media/avatar.png": "/test-task-frontend-smm-oksima-group/static/media/avatar.a5e95e92298640287298.png",
     "index.html": "/test-task-frontend-smm-oksima-group/index.html",
     "main.b8e2d544.css.map": "/test-task-frontend-smm-oksima-group/static/css/main.b8e2d544.css.map",
-    "main.32a1b44b.js.map": "/test-task-frontend-smm-oksima-group/static/js/main.32a1b44b.js.map",
-    "680.ee023180.chunk.js.map": "/test-task-frontend-smm-oksima-group/static/js/680.ee023180.chunk.js.map",
-    "589.415ec33c.chunk.js.map": "/test-task-frontend-smm-oksima-group/static/js/589.415ec33c.chunk.js.map",
-    "664.ae4c3649.chunk.js.map": "/test-task-frontend-smm-oksima-group/static/js/664.ae4c3649.chunk.js.map",
+    "main.e7fe8e54.js.map": "/test-task-frontend-smm-oksima-group/static/js/main.e7fe8e54.js.map",
+    "589.efd0fb59.chunk.js.map": "/test-task-frontend-smm-oksima-group/static/js/589.efd0fb59.chunk.js.map",
+    "664.abd9c268.chunk.js.map": "/test-task-frontend-smm-oksima-group/static/js/664.abd9c268.chunk.js.map",
     "703.4951f523.chunk.js.map": "/test-task-frontend-smm-oksima-group/static/js/703.4951f523.chunk.js.map",
     "487.81f81cae.chunk.js.map": "/test-task-frontend-smm-oksima-group/static/js/487.81f81cae.chunk.js.map",
-    "160.8edd5bfa.chunk.js.map": "/test-task-frontend-smm-oksima-group/static/js/160.8edd5bfa.chunk.js.map"
+    "177.f97c7186.chunk.js.map": "/test-task-frontend-smm-oksima-group/static/js/177.f97c7186.chunk.js.map",
+    "714.a23c0400.chunk.js.map": "/test-task-frontend-smm-oksima-group/static/js/714.a23c0400.chunk.js.map",
+    "830.c832aaa8.chunk.js.map": "/test-task-frontend-smm-oksima-group/static/js/830.c832aaa8.chunk.js.map",
+    "204.ba4375b6.chunk.js.map": "/test-task-frontend-smm-oksima-group/static/js/204.ba4375b6.chunk.js.map",
+    "630.9238ae66.chunk.js.map": "/test-task-frontend-smm-oksima-group/static/js/630.9238ae66.chunk.js.map",
+    "774.a74c5e80.chunk.js.map": "/test-task-frontend-smm-oksima-group/static/js/774.a74c5e80.chunk.js.map",
+    "944.98e2690d.chunk.js.map": "/test-task-frontend-smm-oksima-group/static/js/944.98e2690d.chunk.js.map",
+    "881.aaa13400.chunk.js.map": "/test-task-frontend-smm-oksima-group/static/js/881.aaa13400.chunk.js.map",
+    "304.96b9183f.chunk.js.map": "/test-task-frontend-smm-oksima-group/static/js/304.96b9183f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b8e2d544.css",
-    "static/js/main.32a1b44b.js"
+    "static/js/main.e7fe8e54.js"
   ]
 }
