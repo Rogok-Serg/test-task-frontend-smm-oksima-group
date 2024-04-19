@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunktest_task_frontend_smm_oksima_group=self.webpackChunktest_task_frontend_smm_oksima_group||[]).push([[487],{5487:function(e,s,t){t.r(s);var n=t(184);s.default=function(){return(0,n.jsxs)("div",{children:[(0,n.jsx)("h2",{children:"Affiliate Page"}),(0,n.jsx)("p",{children:"I am Affiliate"})]})}}}]);
-//# sourceMappingURL=487.81f81cae.chunk.js.map

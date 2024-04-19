@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunktest_task_frontend_smm_oksima_group=self.webpackChunktest_task_frontend_smm_oksima_group||[]).push([[703],{6703:function(s,n,e){e.r(n);var r=e(184);n.default=function(){return(0,r.jsxs)("div",{children:[(0,r.jsx)("h2",{children:"Brand Page"}),(0,r.jsx)("p",{children:"I am Brand"})]})}}}]);
-//# sourceMappingURL=703.4951f523.chunk.js.map
