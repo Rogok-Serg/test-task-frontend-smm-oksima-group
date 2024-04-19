@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const StyledContainer = styled.div`
@@ -55,51 +55,6 @@ export const StyledList = styled.ul`
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-`;
-
-export const StyledItem = styled(Link)`
-  display: flex;
-  align-items: center;
-  width: 260px;
-  height: 40px;
-  background-color: #fff;
-  border-radius: 10px;
-  margin-bottom: 7px;
-  cursor: pointer;
-  text-decoration: none;
-  // & .svg {
-  //   background-color: #fff;
-  //   :hover {
-  //     background-color: rgb(2, 74, 181);
-  //   }
-  // }
-`;
-
-export const StyledWrapperSvg = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 5px 8px;
-  border-radius: 5px;
-  margin-left: 11px;
-  margin-right: 5px;
-  // background-color: #fff;
-  // transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  &:hover {
-    background-color: #5791ea;
-  }
-`;
-
-export const StyledItemText = styled.p`
-  font-family: 'Public Sans' sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 20px;
-  color: #a3aed0;
-  &:hover {
-    color: #a3aed0;
-  }
 `;
 
 export const StyledSection = styled.section`

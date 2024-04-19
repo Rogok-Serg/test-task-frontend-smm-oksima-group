@@ -1,0 +1,62 @@
+.item {
+  display: flex;
+  align-items: center;
+  width: 260px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 7px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 8px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-left: 11px;
+  margin-right: 5px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.item:hover .svg,
+.item:focus .svg {
+  background-color: #5791ea;
+}
+
+.svg1 {
+  fill: none;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.item:hover .svg1,
+.item:focus .svg1 {
+  fill: #000;
+}
+
+.img {
+  stroke: grey;
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.item:hover .img,
+.item:focus .img {
+  stroke: #000;
+}
+
+.text {
+  font-family: 'Public Sans' sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #a3aed0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.item:hover .text,
+.item:focus .text {
+  color: #000;
+}
