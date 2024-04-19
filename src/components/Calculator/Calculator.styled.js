@@ -11,6 +11,7 @@ export const StyledWrapperCalculator = styled.div`
 
 export const StyledCalculatorTitle = styled.h3`
   margin: 0;
+  margin-left: 14px;
   font-family: 'DM Sans' sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -27,6 +28,12 @@ export const StyledWrapperCalculatorInput = styled.div`
 
 export const StyledCalculatorLabel = styled.label`
   margin-top: 22px;
+  font-family: 'DM Sans' sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  color: #a3aed0;
 `;
 
 export const StyledCalculatorInput = styled.input`
