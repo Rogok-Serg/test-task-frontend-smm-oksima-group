@@ -6,11 +6,11 @@ export const StyledContainer = styled.div`
   align-items: start;
   margin: 0 auto;
   max-width: 1728px;
-  height: 1117px;
+  height: 1180px;
   background: #f2f2f2;
 `;
 export const StyledWrapperSection = styled.div`
-  height: 1186px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -18,10 +18,11 @@ export const StyledWrapperSection = styled.div`
 
 export const StyledAside = styled.aside`
   width: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 100%;
-  padding-top: 18px;
-  padding-left: 5px;
-  padding-bottom: 30px;
+  padding: 18px 5px 0 5px;
   background-image: linear-gradient(
     to bottom,
     rgba(112, 169, 255, 1),

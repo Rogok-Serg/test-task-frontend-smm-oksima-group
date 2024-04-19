@@ -71,7 +71,7 @@ const RegisterPage = () => {
                 type="name"
                 name="userName"
                 required
-                pattern="/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/"
+                // pattern="/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/"
                 placeholder="Nazwa"
               />
             </StyledLabel>
@@ -82,7 +82,7 @@ const RegisterPage = () => {
                 type="email"
                 name="userEmail"
                 required
-                pattern="/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/"
+                pattern="/^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/"
                 placeholder="E-mail"
               />
             </StyledLabel>
