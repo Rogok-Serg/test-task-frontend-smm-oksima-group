@@ -136,6 +136,7 @@ export const StyledAddCard = styled.div`
 
 export const StyledSvgPlus = styled.svg`
   fill: #b2cef8;
+  cursor: pointer;
 `;
 
 export const StyledAddCardText = styled.p`
