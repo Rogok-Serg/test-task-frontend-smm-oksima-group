@@ -25,7 +25,6 @@ import { useState } from 'react';
 import Logo from 'components/Logo/Logo';
 
 const LoginPage = () => {
-  // const authentificated = useSelector(selectAuthentificated);
   const [authentificated, setAuthentificated] = useState(false);
   const [checked, setChecked] = useState(true);
   const [password, setPassword] = useState('');

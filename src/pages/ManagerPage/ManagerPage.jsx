@@ -26,7 +26,7 @@ const ManagerPage = () => {
           <StyledTitle>Analytix</StyledTitle>
         </StyledwrapperLogo>
         <StyledList>
-          <StyledItem to="/manager/userdata">
+          <StyledItem to="/manager/user">
             <StyledWrapperSvg>
               <svg
                 width="20"
@@ -51,7 +51,6 @@ const ManagerPage = () => {
               </svg>
             </StyledWrapperSvg>
             <StyledItemText>Menedżer</StyledItemText>
-            {/* <StyledItemText>Menedżer</StyledItemText> */}
           </StyledItem>
           <StyledItem to="/manager/users">
             <StyledWrapperSvg className="svg">
@@ -79,7 +78,6 @@ const ManagerPage = () => {
               </svg>
             </StyledWrapperSvg>
             <StyledItemText>Użytkownicy</StyledItemText>
-            {/* <StyledItemText>Użytkownicy</StyledItemText> */}
           </StyledItem>
           <StyledItem to="/manager/offers">
             <StyledWrapperSvg>

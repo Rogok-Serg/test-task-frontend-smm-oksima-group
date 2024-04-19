@@ -10,8 +10,10 @@ export const StyledContainer = styled.div`
   background: #f2f2f2;
 `;
 export const StyledWrapperSection = styled.div`
+  height: 1186px;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 `;
 
 export const StyledAside = styled.aside`

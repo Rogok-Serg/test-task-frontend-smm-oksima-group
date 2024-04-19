@@ -23,6 +23,56 @@ export const StyledUsersName = styled.p`
   background-color: #fff;
 `;
 
+export const StyledUsersBrand = styled.p`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 216px;
+  height: 57px;
+  font-family: 'DM Sans' sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000;
+  border-radius: 10px;
+  margin: 31px 0 16px 40px;
+  background-color: #fff;
+`;
+export const StyledUsersOffersBrand = styled.p`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 198px;
+  height: 57px;
+  font-family: 'DM Sans' sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000;
+  border-radius: 10px;
+  margin: 31px 0 16px 40px;
+  background-color: #fff;
+`;
+
+export const StyledUsersOffersAffiliate = styled.p`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 295px;
+  height: 57px;
+  font-family: 'DM Sans' sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000;
+  border-radius: 10px;
+  margin: 31px 0 16px 40px;
+  background-color: #fff;
+`;
+
 export const StyledWrapperButton = styled.div`
   display: flex;
   padding: 0;
